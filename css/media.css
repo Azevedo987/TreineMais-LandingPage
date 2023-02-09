@@ -1,0 +1,36 @@
+@media screen and (max-width: 920px){
+    body{
+        padding: auto 0;
+    }
+    .cabecalho{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+        width: 80%;
+    }
+    #conteudo-principal{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    #merchan{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        padding: 0;
+        max-width: none;
+    }
+    form{
+        padding: 0;        
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    input{
+        width: 75%;
+    }
+    img{
+        display: none;
+    }
+}
